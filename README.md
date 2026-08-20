@@ -1,12 +1,12 @@
-# Amazon Product Analytics – Power BI
+# 📊 Amazon Product Analytics – Power BI
 
-## 📊 Project Overview
+## 📌 Project Overview
 
 This project analyzes Amazon product data using Microsoft Power BI to understand product categories, pricing, discount strategies, product ratings, and customer engagement.
 
-The dashboard provides an interactive view of product performance and helps identify pricing patterns, discount opportunities, category-level trends, and customer review behavior.
+The dashboard provides an interactive view of product performance and helps identify pricing patterns, discount opportunities, category-level trends, and customer review activity.
 
-The analysis covers **1,351 products across 211 categories** and includes interactive analysis using Main Category, Price Band, and Discount Band.
+The analysis covers **1,351 products across 211 categories** and includes interactive analysis using Main Category, Price Band, and Discount Band filters.
 
 ---
 
@@ -36,7 +36,7 @@ The analysis converts product-level data into meaningful business insights and r
 
 ---
 
-## 📌 Key KPIs
+## 📈 Key KPIs
 
 | KPI | Value |
 |---|---:|
@@ -45,127 +45,109 @@ The analysis converts product-level data into meaningful business insights and r
 | Average Rating | 4.10 |
 | Average Actual Price | ₹5,445 |
 | Average Discounted Price | ₹3,125 |
-| Average Discount % | 47.69% |
+| Average Discount | 47.69% |
 | Average Discount Amount | ₹2,320 |
 
 ---
 
-## 📑 Dashboard Pages
+## 📊 Dashboard Preview
 
-### 1. Executive Overview
+### 1. Amazon Product Overview
 
-Provides a high-level overview of:
-
-- Product volume by category
-- Average rating by category
-- Average discount percentage
-- Most-reviewed products
-- Overall product and category KPIs
+![Amazon Product Overview](Screenshots/01-amazon-product-overview.png)
 
 ### 2. Pricing & Discount Analysis
 
-Analyzes:
-
-- Actual vs discounted price
-- Average discount amount
-- Average discounted price by category
-- Top products by discount percentage
-- Products by discount band
-- Average rating by discount band
+![Pricing & Discount Analysis](Screenshots/02-pricing-discount-analysis.png)
 
 ### 3. Product & Rating Analysis
 
-Focuses on:
-
-- Most expensive products
-- Most-reviewed products
-- Average rating by price band
-- Rating count by price band
-- Top products by rating
-- Discount percentage vs product rating
+![Product & Rating Analysis](Screenshots/03-product-rating-analysis.png)
 
 ### 4. Category & Product Deep Dive
 
-Provides detailed analysis of:
-
-- Product distribution by category
-- Actual vs discounted price by category
-- Rating engagement by category
-- Most expensive products
-- Highly discounted products
-- Top-rated products
+![Category & Product Deep Dive](Screenshots/04-category-product-deep-dive.png)
 
 ### 5. Discount & Rating Insights
 
-Examines:
-
-- Discount percentage vs product rating
-- Average discounted price by category
-- Average rating count by category
+![Discount & Rating Insights](Screenshots/05-discount-rating-insights.png)
 
 ### 6. Business Insights & Recommendations
 
-Summarizes the major findings and provides recommendations related to:
-
-- Pricing strategy
-- Discount optimization
-- Category focus
-- Customer review engagement
-- Price–discount monitoring
+![Business Insights & Recommendations](Screenshots/06-business-insights-recommendations.png)
 
 ---
 
-## 🔍 Key Insights
+## 🔍 Key Business Insights
 
-- Electronics represents one of the largest product categories by product volume.
-- The average actual product price is **₹5,445**, compared with an average discounted price of **₹3,125**.
-- The overall average discount is **47.69%**.
-- The overall average product rating is **4.10**.
-- Several categories have average discounts above **50%**.
-- Customer review engagement varies significantly across product categories.
-- The dashboard does not show an obvious strong relationship between discount percentage and product rating.
+### 💰 Pricing & Discount
+
+- The average actual product price is **₹5,445**.
+- The average discounted price is **₹3,125**.
+- The average discount is **47.69%**.
+- The average discount amount is approximately **₹2,320**.
+- Several categories show average discounts above 50%, indicating aggressive promotional pricing in selected segments.
+
+### 📦 Category Performance
+
+- **Electronics** has the highest product volume with **490 products**.
+- **Home & Kitchen** follows with **448 products**.
+- **Computers & Accessories** has **375 products**.
+- Electronics also records the highest average discounted price among the major categories.
+
+### ⭐ Rating & Customer Engagement
+
+- Overall average product rating is **4.10**.
+- Product ratings remain relatively strong across categories.
+- Rating engagement varies significantly between categories.
+- Some products receive exceptionally high numbers of ratings, indicating strong customer engagement and product visibility.
+
+### 📉 Discount & Rating Relationship
+
+The analysis compares discount percentage with product ratings to understand whether higher discounts are associated with stronger product ratings.
+
+The relationship appears varied across products rather than showing a simple direct pattern, suggesting that discounting alone does not determine customer ratings.
 
 ---
 
 ## 💡 Business Recommendations
 
-### 1. Optimize Discount Strategies
+### 01. Optimize Discounts
 
-Avoid applying high discounts uniformly across products. Identify products where lower discounts may still maintain strong ratings and customer demand.
+Avoid applying uniformly high discounts.
 
-### 2. Focus on High-Performing Categories
+Identify products and categories where smaller discounts can maintain strong ratings and customer demand while protecting pricing value.
 
-Prioritize categories with strong product presence, pricing potential, and customer engagement.
+### 02. Focus on Electronics
 
-### 3. Improve Review Engagement
+Electronics has a strong product presence and high discounted prices.
 
-Encourage customers to provide reviews, particularly for products or categories with comparatively lower review activity.
+Prioritize inventory, promotions, and assortment optimization in this category.
 
-### 4. Monitor Price–Discount Relationships
+### 03. Improve Review Engagement
 
-Track actual price, discounted price, and discount percentage together to identify products where aggressive discounting may not be necessary.
+Encourage verified customers to leave reviews, particularly in categories with lower rating counts.
 
----
+Higher review engagement can improve product credibility and purchasing confidence.
 
-## 📈 Dashboard Features
+### 04. Monitor Price–Discount Strategy
 
-The dashboard includes interactive analysis using:
-
-- Main Category
-- Price Band
-- Discount Band
-- KPI Cards
-- Category-level analysis
-- Product-level analysis
-- Pricing analysis
-- Discount analysis
-- Rating analysis
-- Customer engagement analysis
+Track actual price, discounted price, and discount percentage together to identify products where heavy discounting may not be necessary.
 
 ---
 
-## 👤 Author
+## 📂 Project Structure
 
-**Roshan Kumar**
-
-Data Analyst | Power BI | SQL | Data Analytics
+```text
+amazon-product-analytics-powerbi/
+│
+├── Amazon_Product_Analytics.pbix
+├── README.md
+│
+└── Screenshots/
+    ├── 01-amazon-product-overview.png
+    ├── 02-pricing-discount-analysis.png
+    ├── 03-product-rating-analysis.png
+    ├── 04-category-product-deep-dive.png
+    ├── 05-discount-rating-insights.png
+    └── 06-business-insights-recommendations.png
